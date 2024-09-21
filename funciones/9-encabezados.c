@@ -4,11 +4,11 @@
 int main() {
 
     int v;
-<<<<<<< HEAD
+
     int l;
-=======
+
     int m;
->>>>>>> feature-branch
+
 
     // Llama a las 3 funciones
     funcion1();
@@ -22,13 +22,13 @@ int main() {
     // Imprime el valor que retornó funcion3()
     printf("v = %d\n", v);
 
-<<<<<<< HEAD
+
     // Imprime el valor que retornó funcion4()
     printf("v = %d\n", l);
-=======
+
     // Imprime el valor que retornó funcion5()
     printf("m = %d\n", m);
->>>>>>> feature-branch
+
 
     return 0;
 
