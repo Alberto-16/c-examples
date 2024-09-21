@@ -4,14 +4,20 @@
 int main() {
 
     int v;
+    int l;
 
     // Llama a las 3 funciones
     funcion1();
     funcion2(5, 2.67);
     v = funcion3(10);
+    
+    l= funcion4(10);
 
     // Imprime el valor que retornó funcion3()
     printf("v = %d\n", v);
+
+    // Imprime el valor que retornó funcion4()
+    printf("v = %d\n", l);
 
     return 0;
 
@@ -36,9 +42,21 @@ int funcion3(int x) {
     return y;
 }
 
+
+//cambiamos en nombre de la funcion4 por funcionCambio para poder hacer uso del nombre 
+//para el trabajo del commit.
 int funcion5(int x) {
     printf("en funcion5");
-int funcion4(int x) {
+int funcionCambio(int x) {
     printf("En funcion4()");
     return x;
+}
+
+}
+
+
+int funcion4(int x) {
+    printf("En funcion4()...\n");
+    int y = x - 2;
+    return y;
 }
