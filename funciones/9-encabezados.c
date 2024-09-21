@@ -4,7 +4,11 @@
 int main() {
 
     int v;
+<<<<<<< HEAD
     int l;
+=======
+    int m;
+>>>>>>> feature-branch
 
     // Llama a las 3 funciones
     funcion1();
@@ -13,11 +17,18 @@ int main() {
     
     l= funcion4(10);
 
+    m= funcion5(10);
+
     // Imprime el valor que retornó funcion3()
     printf("v = %d\n", v);
 
+<<<<<<< HEAD
     // Imprime el valor que retornó funcion4()
     printf("v = %d\n", l);
+=======
+    // Imprime el valor que retornó funcion5()
+    printf("m = %d\n", m);
+>>>>>>> feature-branch
 
     return 0;
 
@@ -43,13 +54,19 @@ int funcion3(int x) {
 }
 
 
+
 //cambiamos en nombre de la funcion4 por funcionCambio para poder hacer uso del nombre 
 //para el trabajo del commit.
 int funcion5(int x) {
+
+// Cambiamos el nombre de esta siguiente funcion para poder lograr ser uso de ese nombre en
+//en commit. funcion5 a funcionCambio5
+int funcionCambio5(int x) {
     printf("en funcion5");
 int funcionCambio(int x) {
     printf("En funcion4()");
     return x;
+
 }
 
 }
@@ -58,5 +75,11 @@ int funcionCambio(int x) {
 int funcion4(int x) {
     printf("En funcion4()...\n");
     int y = x - 2;
+
+}}
+
+int funcion5(int x) {
+    printf("En funcion5()...\n");
+    int y = x + 7;
     return y;
 }
